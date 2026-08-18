@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Never commit credentials or tokens.
+.env
+tokens/
+garmin_token_b64.txt
+.garminconnect/
+
+# Unreduced per-day payloads from --keep-raw: hundreds of KB per day,
+# and everything the dashboard needs is already in garmin_data.json.
+data/raw_daily.json
