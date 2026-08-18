@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-18T02:25:48+02:00",
+ "generated_at": "2026-08-18T05:54:06+00:00",
  "window": {
   "start": "2026-02-19",
   "end": "2026-08-18"
@@ -1418,8 +1418,8 @@
    },
    {
     "calendarDate": "2026-08-18",
-    "totalSteps": 48,
-    "totalDistance": 40,
+    "totalSteps": 148,
+    "totalDistance": 123,
     "stepGoal": 4490
    }
   ],
@@ -2146,7 +2146,7 @@
    },
    {
     "calendarDate": "2026-08-18",
-    "value": 53.0
+    "value": 45.0
    }
   ],
   "sleep_daily": [
@@ -6766,6 +6766,33 @@
      "avgHeartRate": 54.0,
      "hrv7dAverage": 70.0
     }
+   },
+   {
+    "calendarDate": "2026-08-18",
+    "values": {
+     "remTime": 1800,
+     "restingHeartRate": 45,
+     "totalSleepTimeInSeconds": 11520,
+     "respiration": 14.48,
+     "localSleepEndTimeInMillis": 1787033169000,
+     "deepTime": 6360,
+     "awakeTime": 120,
+     "sleepScoreQuality": "POOR",
+     "spO2": null,
+     "localSleepStartTimeInMillis": 1787021529000,
+     "sleepNeed": 530,
+     "bodyBatteryChange": 44,
+     "gmtSleepStartTimeInMillis": 1787014329000,
+     "gmtSleepEndTimeInMillis": 1787025969000,
+     "hrvStatus": "BALANCED",
+     "skinTempF": null,
+     "sleepScore": 43,
+     "skinTempC": null,
+     "lightTime": 3360,
+     "avgOvernightHrv": 80.0,
+     "avgHeartRate": 49.0,
+     "hrv7dAverage": 71.0
+    }
    }
   ],
   "calories_daily": [
@@ -7852,8 +7879,8 @@
    {
     "calendarDate": "2026-08-18",
     "active": 0.0,
-    "resting": 54.0,
-    "total": 54.0
+    "resting": 575.0,
+    "total": 575.0
    }
   ],
   "body_battery": [
@@ -22887,36 +22914,36 @@
    },
    {
     "date": "2026-08-18",
-    "charged": 0,
-    "drained": 1,
+    "charged": 48,
+    "drained": 2,
     "startTimestampGMT": "2026-08-17T22:00:00.0",
-    "endTimestampGMT": "2026-08-17T22:36:00.0",
+    "endTimestampGMT": "2026-08-18T04:20:00.0",
     "startTimestampLocal": "2026-08-18T00:00:00.0",
-    "endTimestampLocal": "2026-08-18T00:36:00.0",
+    "endTimestampLocal": "2026-08-18T06:20:00.0",
     "bodyBatteryValuesArray": [
      [
       1787004000000,
       19
      ],
      [
-      1787004000000,
-      19
+      1787007600000,
+      17
      ],
      [
-      1787004720000,
-      19
+      1787011740000,
+      17
      ],
      [
-      1787004720000,
-      19
+      1787019300000,
+      35
      ],
      [
-      1787005440000,
-      19
+      1787019480000,
+      35
      ],
      [
-      1787005620000,
-      18
+      1787026680000,
+      65
      ]
     ],
     "bodyBatteryValueDescriptorDTOList": [
@@ -22930,10 +22957,27 @@
      }
     ],
     "bodyBatteryDynamicFeedbackEvent": {
-     "eventTimestampGmt": "2026-08-17T22:32:59.0",
+     "eventTimestampGmt": "2026-08-18T04:10:13.0",
      "bodyBatteryLevel": "MODERATE",
-     "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_INACTIVE",
-     "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_INACTIVE"
+     "feedbackShortType": null,
+     "feedbackLongType": "EARLY_MORNING_HIGH_MODERATE_HIGH_BB_YESTERDAY_MORNING"
+    },
+    "bodyBatteryActivityEvent": [
+     {
+      "eventType": "SLEEP",
+      "eventStartTimeGmt": "2026-08-18T00:52:09.0",
+      "timezoneOffset": 7200000,
+      "durationInMilliseconds": 11640000,
+      "bodyBatteryImpact": 44,
+      "feedbackType": "NONE",
+      "shortFeedback": "NONE"
+     }
+    ],
+    "endOfDayBodyBatteryDynamicFeedbackEvent": {
+     "eventTimestampGmt": "2026-08-18T01:19:45.0",
+     "bodyBatteryLevel": "HIGH",
+     "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INACTIVE",
+     "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INACTIVE"
     }
    }
   ],
@@ -25691,15 +25735,79 @@
      "status": "BALANCED",
      "feedbackPhrase": "HRV_BALANCED_2",
      "createTimeStamp": "2026-08-17T22:32:10.477"
+    },
+    {
+     "calendarDate": "2026-08-18",
+     "weeklyAvg": 71,
+     "lastNightAvg": 80,
+     "lastNight5MinHigh": 97,
+     "baseline": {
+      "lowUpper": 62,
+      "balancedLow": 66,
+      "balancedUpper": 85,
+      "markerValue": 0.38157654
+     },
+     "status": "BALANCED",
+     "feedbackPhrase": "HRV_BALANCED_8",
+     "createTimeStamp": "2026-08-18T04:09:39.171"
     }
    ]
   },
   "weight": {
-   "dailyWeightSummaries": [],
+   "dailyWeightSummaries": [
+    {
+     "summaryDate": "2026-08-18",
+     "numOfWeightEntries": 1,
+     "minWeight": 79500.0,
+     "maxWeight": 79500.0,
+     "latestWeight": {
+      "samplePk": 1787012708191,
+      "date": 1787012640000,
+      "calendarDate": "2026-08-18",
+      "weight": 79500.0,
+      "bmi": null,
+      "bodyFat": null,
+      "bodyWater": null,
+      "boneMass": null,
+      "muscleMass": null,
+      "physiqueRating": null,
+      "visceralFat": null,
+      "metabolicAge": null,
+      "sourceType": "MANUAL",
+      "timestampGMT": 1787005440000,
+      "weightDelta": null,
+      "trend": {
+       "weight": 80295.0
+      }
+     },
+     "allWeightMetrics": [
+      {
+       "samplePk": 1787012708191,
+       "date": 1787012640000,
+       "calendarDate": "2026-08-18",
+       "weight": 79500.0,
+       "bmi": null,
+       "bodyFat": null,
+       "bodyWater": null,
+       "boneMass": null,
+       "muscleMass": null,
+       "physiqueRating": null,
+       "visceralFat": null,
+       "metabolicAge": null,
+       "sourceType": "MANUAL",
+       "timestampGMT": 1787005440000,
+       "weightDelta": null,
+       "trend": {
+        "weight": 80295.0
+       }
+      }
+     ]
+    }
+   ],
    "totalAverage": {
     "from": 1771459200000,
     "until": 1787097599999,
-    "weight": null,
+    "weight": 79500.0,
     "bmi": null,
     "bodyFat": null,
     "bodyWater": null,
@@ -26194,7 +26302,7 @@
    },
    {
     "calendarDate": "2026-08-12",
-    "value": 34
+    "value": 31
    }
   ],
   "race_predictions": {
@@ -26210,15 +26318,23 @@
  },
  "daily": {
   "2026-08-18": {
-   "steps": 48,
-   "resting_hr": 53,
-   "calories": 54.0,
+   "steps": 148,
+   "resting_hr": 45,
+   "calories": 575.0,
    "floors": 0.0,
-   "bb_high": 19,
-   "bb_low": 18,
+   "bb_high": 65,
+   "bb_low": 17,
    "intensity_min": 0,
    "vigorous_min": 0,
-   "stress_avg": 38,
+   "sleep_seconds": 11520,
+   "sleep_deep": 6360,
+   "sleep_light": 3360,
+   "sleep_rem": 1800,
+   "sleep_awake": 120,
+   "sleep_score": 43,
+   "readiness": 29,
+   "readiness_level": "LOW",
+   "stress_avg": 15,
    "stress_max": 79
   },
   "2026-08-17": {
