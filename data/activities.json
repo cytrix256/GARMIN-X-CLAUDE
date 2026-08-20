@@ -1,5 +1,51 @@
 [
  {
+  "activityId": 24041566809,
+  "startTimeLocal": "2026-08-19 22:25:28",
+  "startTimeGMT": "2026-08-19 20:25:28",
+  "distance": 0.0,
+  "duration": 2324.555908203125,
+  "elapsedDuration": 2324.555908203125,
+  "movingDuration": 0.0,
+  "steps": 534,
+  "calories": 453.0,
+  "averageHR": 163.0,
+  "maxHR": 182.0,
+  "averageSpeed": 0.0,
+  "aerobicTrainingEffect": 3.700000047683716,
+  "anaerobicTrainingEffect": 0.10000000149011612,
+  "activityTrainingLoad": 118.13417053222656,
+  "moderateIntensityMinutes": 3,
+  "vigorousIntensityMinutes": 30,
+  "activityType": {
+   "typeKey": "indoor_cardio"
+  },
+  "activityName": "Indoor Cardio"
+ },
+ {
+  "activityId": 24041566478,
+  "startTimeLocal": "2026-08-19 21:19:48",
+  "startTimeGMT": "2026-08-19 19:19:48",
+  "distance": 0.0,
+  "duration": 3877.85595703125,
+  "elapsedDuration": 3877.85595703125,
+  "movingDuration": 1612.449951171875,
+  "steps": 112,
+  "calories": 282.0,
+  "averageHR": 101.0,
+  "maxHR": 150.0,
+  "averageSpeed": 0.0,
+  "aerobicTrainingEffect": 0.5,
+  "anaerobicTrainingEffect": 0.0,
+  "activityTrainingLoad": 6.359100341796875,
+  "moderateIntensityMinutes": 27,
+  "vigorousIntensityMinutes": 0,
+  "activityType": {
+   "typeKey": "strength_training"
+  },
+  "activityName": "Strength Training"
+ },
+ {
   "activityId": 24003444712,
   "startTimeLocal": "2026-08-16 21:36:15",
   "startTimeGMT": "2026-08-16 19:36:15",
